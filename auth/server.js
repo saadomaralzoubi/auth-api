@@ -1,7 +1,7 @@
 "use strict";
 const express = require("express");
 const cors = require("cors");
-const errorhandler = require("./error-handler/errorHandler");
+const errorhandler = require("./error-handler/500");
 const notFound = require("./error-handler/404");
 const signinRoute = require("./routes/signin");
 const signUpRoute = require("./routes/signup");
