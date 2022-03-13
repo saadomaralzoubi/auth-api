@@ -23,12 +23,12 @@ let sequelizeOptions =
 
 let sequelize = new Sequelize(POSTGRES_URL, sequelizeOptions);
 
-let foodCollection = new collection(food(sequelize, DataTypes));
-let clothesCollection = new collection(clothes(sequelize, DataTypes));
+let foodc = new collection(food(sequelize, DataTypes));
+let clothesc = new collection(clothes(sequelize, DataTypes));
 
 module.exports = {
   db: sequelize,
   user: user(sequelize, DataTypes),
-  food: foodCollection,
-  clothes: clothesCollection,
+  food: foodc,
+  clothes: clothesc,
 };
