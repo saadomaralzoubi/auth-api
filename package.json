@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibrahimalaqoul/auth-api.git"
+    "url": "git+https://github.com/saadomaralzoubi/auth-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ibrahimalaqoul/auth-api/issues"
+    "url": "https://github.com/saadomaralzoubi/auth-api/issues"
   },
-  "homepage": "https://github.com/ibrahimalaqoul/auth-api#readme",
+  "homepage": "https://github.com/saadomaralzoubi/auth-api#readme",
   "dependencies": {
     "base-64": "^1.0.0",
     "bcrypt": "^5.0.1",
